@@ -1,0 +1,533 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.985; Version 2009; 64bit' Language: 'ko' Physical Memory: 7916 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity_Version\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55499
+Successfully changed project path to: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain
+C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 195.70 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 2.51 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path D:/Unity_Version/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   
+    VRAM:     3958 MB
+    Driver:   27.20.100.8853
+Initialize mono
+Mono path[0] = 'D:/Unity_Version/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity_Version/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity_Version/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity_Version/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002455 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 177.01 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.763 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 162.53 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.967 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 6.162600 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.062200 ms MarkObjects: 5.594100 ms  DeleteObjects: 0.261100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SciFiWarriorPBRHPPolyart
+  artifactKey: Guid(0fa94621e392c744794e56d0e9199687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart using Guid(0fa94621e392c744794e56d0e9199687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a47d86a95c15509cfa90655f5e1fe6d') in 0.016361 seconds
+  Import took 0.024356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Prefabs/PBRCharacter.prefab
+  artifactKey: Guid(f432554f564e69242897607d34218939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Prefabs/PBRCharacter.prefab using Guid(f432554f564e69242897607d34218939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a6c7a7f9fcf21f8622e377f86dd497') in 4.739213 seconds
+  Import took 4.754543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Prefabs/PolyartCharacter.prefab
+  artifactKey: Guid(910177ec26b76c14996c2d53627a6def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Prefabs/PolyartCharacter.prefab using Guid(910177ec26b76c14996c2d53627a6def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0f18c3cec0561dd5144767ecceb56b') in 0.150836 seconds
+  Import took 0.163410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab
+  artifactKey: Guid(c98043d57e0190845b790d7b92990bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Prefabs/HPCharacter.prefab using Guid(c98043d57e0190845b790d7b92990bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d37a7caef95e31cd48cf0debc5fc0f') in 2.275387 seconds
+  Import took 2.290217 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005918 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.853 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.53 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.8 MB.
+System memory in use after: 128.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 4.661900 ms (FindLiveObjects: 0.398500 ms CreateObjectMapping: 0.145000 ms MarkObjects: 4.080400 ms  DeleteObjects: 0.036000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 4497.686224 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/promotion.jpg
+  artifactKey: Guid(e8a466c997566b84c895066dbd56e130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/promotion.jpg using Guid(e8a466c997566b84c895066dbd56e130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825b17fdcc3b2d15fab1f1537561337b') in 0.825226 seconds
+  Import took 0.834362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.506021 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Textures
+  artifactKey: Guid(1aa9125f97440f643a69f4230767f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Textures using Guid(1aa9125f97440f643a69f4230767f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78654f97765e454aea8f2af1d2110d5a') in 0.016189 seconds
+  Import took 0.025408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001283 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Textures
+  artifactKey: Guid(1aa9125f97440f643a69f4230767f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Textures using Guid(1aa9125f97440f643a69f4230767f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78654f97765e454aea8f2af1d2110d5a') in 0.007016 seconds
+  Import took 0.013606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.593728 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Scene
+  artifactKey: Guid(1ff5021c339199449a068e57e6c272c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Scene using Guid(1ff5021c339199449a068e57e6c272c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857494464d26da3f702da6466123b623') in 0.017191 seconds
+  Import took 0.026080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.786702 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Prefabs
+  artifactKey: Guid(d6042bd1068196e4e985966cfa6f0891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Prefabs using Guid(d6042bd1068196e4e985966cfa6f0891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337e7c1b0f02c19215e664dab01200b8') in 0.015447 seconds
+  Import took 0.022767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.367810 seconds.
+  path: Assets/FreeDragons/Scene
+  artifactKey: Guid(ca5661a67750c244cbc0e8a0cbe2b134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Scene using Guid(ca5661a67750c244cbc0e8a0cbe2b134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2059015b2971934ff0079981d79bea2a') in 0.006533 seconds
+  Import took 0.015071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/FreeDragons/Scene
+  artifactKey: Guid(ca5661a67750c244cbc0e8a0cbe2b134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Scene using Guid(ca5661a67750c244cbc0e8a0cbe2b134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2059015b2971934ff0079981d79bea2a') in 0.004893 seconds
+  Import took 0.012486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.956919 seconds.
+  path: Assets/FreeDragons
+  artifactKey: Guid(22e527e0927f1ac4d9aa74ad664a5cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons using Guid(22e527e0927f1ac4d9aa74ad664a5cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c43da0216ccd2b8ceef7b2a997ce09') in 0.009015 seconds
+  Import took 0.017517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.041712 seconds.
+  path: Assets/FreeDragons/Animators
+  artifactKey: Guid(5ad071ae1343c5b4ca58aad5c0ea1099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Animators using Guid(5ad071ae1343c5b4ca58aad5c0ea1099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976caafc1394dc2a0e1089554c00ceb2') in 0.008624 seconds
+  Import took 0.015157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.525884 seconds.
+  path: Assets/FreeDragons/Materials
+  artifactKey: Guid(05c1ffad7c949de45bc9b6664fb58d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Materials using Guid(05c1ffad7c949de45bc9b6664fb58d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886e53ee47ae46f36a89e4811cc6e782') in 0.008957 seconds
+  Import took 0.018400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.723031 seconds.
+  path: Assets/FreeDragons/Prefab
+  artifactKey: Guid(4375e93352605df4cbdaa1c202fbe8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab using Guid(4375e93352605df4cbdaa1c202fbe8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347508925daf422519729a8448482ca7') in 0.007482 seconds
+  Import took 0.017011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.373790 seconds.
+  path: Assets/FreeDragons/Prefab/DragonBoarPBR
+  artifactKey: Guid(86ea95b5bfce4b1439af4bd3f1f0c89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonBoarPBR using Guid(86ea95b5bfce4b1439af4bd3f1f0c89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020034746dcaabd2fd03f801e594b079') in 0.008424 seconds
+  Import took 0.019538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.684458 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterGreenHP.prefab
+  artifactKey: Guid(fb64934996b606541bc2557bc4f51645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterGreenHP.prefab using Guid(fb64934996b606541bc2557bc4f51645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52943c02719413a8e1d0c6b9e7a57334') in 2.388137 seconds
+  Import took 2.403310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.145801 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterPurpleHP.prefab
+  artifactKey: Guid(d49b3de70b15bcc4c92b72c9d8610ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterPurpleHP.prefab using Guid(d49b3de70b15bcc4c92b72c9d8610ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f27a554ff45f4aeec78a8867b202047') in 1.607924 seconds
+  Import took 1.625498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterRedHP.prefab
+  artifactKey: Guid(318830e16c9af9a449459f9b35ed0179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterRedHP.prefab using Guid(318830e16c9af9a449459f9b35ed0179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760334dcf1e09163948631bee63428f3') in 1.829958 seconds
+  Import took 1.844124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterBlueHP.prefab
+  artifactKey: Guid(46f5c004c20094c49889487b4f6d72c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonSoulEaterHP/DragonSoulEaterBlueHP.prefab using Guid(46f5c004c20094c49889487b4f6d72c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93475b4f3ec370736e2a6fbc364abb66') in 1.684175 seconds
+  Import took 1.701974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/FreeDragons/Prefab/DragonBoarPBR/BlueBoarPBR.prefab
+  artifactKey: Guid(907325ec940ecbf409d1505976f5fcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonBoarPBR/BlueBoarPBR.prefab using Guid(907325ec940ecbf409d1505976f5fcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ae977214e306b55196a35389ffb458') in 2.282433 seconds
+  Import took 2.292372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/FreeDragons/Prefab/DragonBoarPBR/GreenBoarPBR.prefab
+  artifactKey: Guid(7add1d5b90ab7234d92b5feb2d77c953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonBoarPBR/GreenBoarPBR.prefab using Guid(7add1d5b90ab7234d92b5feb2d77c953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba84ba6302913df7ad661c0351eb572') in 1.862714 seconds
+  Import took 1.883318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/FreeDragons/Prefab/DragonBoarPBR/GoldBoarPBR.prefab
+  artifactKey: Guid(36dd14b7ef773c54e96eb7d110c8b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonBoarPBR/GoldBoarPBR.prefab using Guid(36dd14b7ef773c54e96eb7d110c8b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a653884f63f1d4fb71fbdca1ef4891e') in 1.750006 seconds
+  Import took 1.768378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/FreeDragons/Prefab/DragonBoarPBR/RedBoarPBR.prefab
+  artifactKey: Guid(83187382e7bb7844da2964a6fec3b29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDragons/Prefab/DragonBoarPBR/RedBoarPBR.prefab using Guid(83187382e7bb7844da2964a6fec3b29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe777b1de6c7bf52c227b4d42bb4efd') in 2.010818 seconds
+  Import took 2.033019 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.866 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.45 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.3 MB.
+System memory in use after: 128.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2284.
+Total: 4.468700 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.100500 ms MarkObjects: 4.019700 ms  DeleteObjects: 0.040500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 60.710282 seconds.
+  path: Assets/Prefabs/maw_j_laygo.fbx
+  artifactKey: Guid(12bf5f76e5f745c40a3b5df0a91bd2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/maw_j_laygo.fbx using Guid(12bf5f76e5f745c40a3b5df0a91bd2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447cea324bd54584adc234490595effa') in 1.849943 seconds
+  Import took 1.859522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.645512 seconds.
+  path: Assets/Prefabs/maw_j_laygo.fbx
+  artifactKey: Guid(12bf5f76e5f745c40a3b5df0a91bd2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/maw_j_laygo.fbx using Guid(12bf5f76e5f745c40a3b5df0a91bd2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28565309bd2614488363d5fc8831150') in 1.547531 seconds
+  Import took 1.567697 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014010 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.43 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.862 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.52 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.7 MB.
+System memory in use after: 128.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 4.989800 ms (FindLiveObjects: 0.334400 ms CreateObjectMapping: 0.123700 ms MarkObjects: 4.471100 ms  DeleteObjects: 0.058100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 3181.121600 seconds.
+  path: Assets/Prefabs/maw_j_laygo@Idle.fbx
+  artifactKey: Guid(a3a0c3fe02e1987489df8c757fb07a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/maw_j_laygo@Idle.fbx using Guid(a3a0c3fe02e1987489df8c757fb07a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f217343e8ae5bc3e871006948fc31c8d') in 1.071913 seconds
+  Import took 1.089640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.533943 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animators/SciFiWarrior.controller
+  artifactKey: Guid(6defa2fea7e9a934a8d2cafa30dc567a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animators/SciFiWarrior.controller using Guid(6defa2fea7e9a934a8d2cafa30dc567a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805dea53606ebf4ae69c64ccadbee52b') in 0.077831 seconds
+  Import took 0.088228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.542188 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animations/Idle_gunMiddle_ar.fbx
+  artifactKey: Guid(107649059ea401b4e9c5c20f21e99a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animations/Idle_gunMiddle_ar.fbx using Guid(107649059ea401b4e9c5c20f21e99a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9ce47ac44b7d22662aa957f8485db0') in 0.223791 seconds
+  Import took 0.232348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.377575 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animations/Idle_Shoot_ar.fbx
+  artifactKey: Guid(1d4365e1541bb6949a273318862b72d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animations/Idle_Shoot_ar.fbx using Guid(1d4365e1541bb6949a273318862b72d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34738e80933d4f2086aa491d45217af') in 0.220290 seconds
+  Import took 0.229402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.484017 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animators
+  artifactKey: Guid(639c3ffab364e304e9b93bc7c83f975a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animators using Guid(639c3ffab364e304e9b93bc7c83f975a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78688a6fa4e1a696907e3afd56aed497') in 0.014613 seconds
+  Import took 0.021410 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012320 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.75 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.846 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.86 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2330.
+Total: 4.565000 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.099500 ms MarkObjects: 4.069600 ms  DeleteObjects: 0.042700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 19.864031 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animators/Boss.controller
+  artifactKey: Guid(49f5238ff4ea7904987eb88abce4e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animators/Boss.controller using Guid(49f5238ff4ea7904987eb88abce4e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b60ee632e28cde16de131cbc766a3c') in 0.038614 seconds
+  Import took 0.056157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.646715 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animators/Machine.controller
+  artifactKey: Guid(6defa2fea7e9a934a8d2cafa30dc567a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animators/Machine.controller using Guid(6defa2fea7e9a934a8d2cafa30dc567a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffd9274bc7a9c392477a26d0b81909e') in 0.054435 seconds
+  Import took 0.065077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.221198 seconds.
+  path: Assets/Prefabs/maw_j_laygo@Flying Back Death.fbx
+  artifactKey: Guid(4903ec09cbcadd444b295265fdf38dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/maw_j_laygo@Flying Back Death.fbx using Guid(4903ec09cbcadd444b295265fdf38dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7169f19864e545532aba75a3c0f3d41') in 0.248779 seconds
+  Import took 0.265274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.067926 seconds.
+  path: Assets/Prefabs/maw_j_laygo@Mutant Jump Attack.fbx
+  artifactKey: Guid(62f585b0af4ea42448ac9f1cba091a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/maw_j_laygo@Mutant Jump Attack.fbx using Guid(62f585b0af4ea42448ac9f1cba091a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc306fdb5142b982079545cb447c52d') in 0.103302 seconds
+  Import took 0.119720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.328739 seconds.
+  path: Assets/Prefabs/maw_j_laygo@Mutant Run.fbx
+  artifactKey: Guid(cfbe8ea6bab666c479f0e715eefb680c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/maw_j_laygo@Mutant Run.fbx using Guid(cfbe8ea6bab666c479f0e715eefb680c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e37f7fe98ae6087b6aecfdf4e844820') in 0.063210 seconds
+  Import took 0.078992 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.651 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 3.180000 ms (FindLiveObjects: 0.328400 ms CreateObjectMapping: 0.106500 ms MarkObjects: 2.716000 ms  DeleteObjects: 0.027500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
