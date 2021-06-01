@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,7 +12,8 @@ using UnityEngine.UI;
 public class Warning : MonoBehaviour
 {
     public GameObject warning;
-    public GameObject bossMonster;
+    [SerializeField] private GameObject bossMonster;
+    [SerializeField] private GameObject playerMachine;
 
     [SerializeField] private Image Dialogubox;
     [SerializeField] private Text txt_Dialogu1;
@@ -41,6 +41,7 @@ public class Warning : MonoBehaviour
         yield return new WaitForSeconds(3f);
         warning.SetActive(false);
         bossMonster.GetComponent<Rigidbody>().useGravity = true;
+        playerMachine.GetComponent<Rigidbody>().useGravity = true;
         
         yield return new WaitForSeconds(2f);
         //ShowDialogue();
@@ -50,11 +51,11 @@ public class Warning : MonoBehaviour
         {
             Dialogubox.gameObject.SetActive(true);
             txt_Dialogu1.gameObject.SetActive(true);
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(3f);
 
             txt_Dialogu1.gameObject.SetActive(false);
             txt_Dialogu2.gameObject.SetActive(true);
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(3f);
 
             txt_Dialogu2.gameObject.SetActive(false);
             Dialogubox.gameObject.SetActive(false);

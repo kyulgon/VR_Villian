@@ -11,19 +11,19 @@ D:\Unity_Version\2020.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain
+C:/Users/zlzls/Desktop/VR_Villian/VillainScene3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50075
-Successfully changed project path to: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain
-C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain
+60435
+Successfully changed project path to: C:/Users/zlzls/Desktop/VR_Villian/VillainScene3
+C:/Users/zlzls/Desktop/VR_Villian/VillainScene3
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.53 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.39 ms.
+Refreshing native plugins compatible for Editor in 201.04 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 2.52 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path D:/Unity_Version/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Assets
+[Subsystems] Discovering subsystems at path C:/Users/zlzls/Desktop/VR_Villian/VillainScene3/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,26 +35,26 @@ Initialize mono
 Mono path[0] = 'D:/Unity_Version/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity_Version/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity_Version/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity_Version/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003250 seconds.
+Registered in 0.002849 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 148.56 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.123 seconds
+- Completed reload, in  3.629 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005346 seconds.
+Registered in 0.011964 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.48 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 174.79 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -66,1649 +66,801 @@ NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.217 seconds
+- Completed reload, in  3.036 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.24 ms.
-Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.0 MB.
-System memory in use after: 84.1 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2245.
-Total: 1.991200 ms (FindLiveObjects: 0.156400 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.701800 ms  DeleteObjects: 0.086800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Cube_A.prefab
-  artifactKey: Guid(fd7bb36d82cb79140a674c8949542d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cube_A.prefab using Guid(fd7bb36d82cb79140a674c8949542d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f5ac855d73cfae75b4960a3b94a863') in 0.303310 seconds
-  Import took 0.306402 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 4.744000 ms (FindLiveObjects: 0.259300 ms CreateObjectMapping: 0.073500 ms MarkObjects: 4.121200 ms  DeleteObjects: 0.287400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.088395 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(51188ae797a2e1241b8b5cc08d9952f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(51188ae797a2e1241b8b5cc08d9952f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5ac31a29dc2347a7d0d2ca9018125e') in 0.002517 seconds
-  Import took 0.005758 seconds .
+  path: Assets/SciFiWarriorPBRHPPolyart/Animations
+  artifactKey: Guid(b9a7525684252cf44a06de79640c67a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animations using Guid(b9a7525684252cf44a06de79640c67a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ada731f9f23e538e34f0bb3bb65edc4') in 0.014889 seconds
+  Import took 0.026295 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009354 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(51188ae797a2e1241b8b5cc08d9952f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(51188ae797a2e1241b8b5cc08d9952f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5ac31a29dc2347a7d0d2ca9018125e') in 0.002717 seconds
-  Import took 0.006261 seconds .
+  Time since last request: 94.558219 seconds.
+  path: Assets/VR Controllers Models
+  artifactKey: Guid(a910cdc2860452242b79e0bdae8baf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models using Guid(a910cdc2860452242b79e0bdae8baf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2a05b81e36eb6bcfa9615608c86117') in 0.005498 seconds
+  Import took 0.021397 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.741292 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e0e235c0f4af3754229b664788db90') in 0.002542 seconds
-  Import took 0.005848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.319232 seconds.
-  path: Assets/03Villain/02Asset/Cartoon_City_Mega-Pack/Props_pack/Prefabs/traffic_lights/traffic_light_3.prefab
-  artifactKey: Guid(cdefba5c237cb0f49b00c0800dd376a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03Villain/02Asset/Cartoon_City_Mega-Pack/Props_pack/Prefabs/traffic_lights/traffic_light_3.prefab using Guid(cdefba5c237cb0f49b00c0800dd376a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42878d134fcd211c23039baf9404940d') in 0.081540 seconds
-  Import took 0.084470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.909462 seconds.
-  path: Assets/03Villain/02Asset/Cartoon_City_Mega-Pack/Props_pack/Prefabs/traffic_lights/traffic_light_1.prefab
-  artifactKey: Guid(32f442dbdffb0f04fb6f0e1d33ea9dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03Villain/02Asset/Cartoon_City_Mega-Pack/Props_pack/Prefabs/traffic_lights/traffic_light_1.prefab using Guid(32f442dbdffb0f04fb6f0e1d33ea9dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d385f737743ec6b99b864d9c0c06c8f') in 0.020311 seconds
-  Import took 0.023748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/03Villain/02Asset/Cartoon_City_Mega-Pack/Props_pack/Prefabs/traffic_lights/traffic_light_1.prefab
-  artifactKey: Guid(32f442dbdffb0f04fb6f0e1d33ea9dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03Villain/02Asset/Cartoon_City_Mega-Pack/Props_pack/Prefabs/traffic_lights/traffic_light_1.prefab using Guid(32f442dbdffb0f04fb6f0e1d33ea9dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d385f737743ec6b99b864d9c0c06c8f') in 0.009510 seconds
-  Import took 0.012806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6306.918873 seconds.
-  path: Assets/03Villain/02Asset/Cartoon_City_Mega-Pack/scenes/City_scene_autumn.unity
-  artifactKey: Guid(68becbdd097dda54994e4739975cd6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03Villain/02Asset/Cartoon_City_Mega-Pack/scenes/City_scene_autumn.unity using Guid(68becbdd097dda54994e4739975cd6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193b3ceadec5def48a0cb1596844f790') in 0.030361 seconds
-  Import took 0.088087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.135570 seconds.
-  path: Assets/03Villain/02Asset/Cartoon_City_Mega-Pack/Props_pack/Textures/Materials
-  artifactKey: Guid(b2abc01e4d7c36c438453da28cf175ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03Villain/02Asset/Cartoon_City_Mega-Pack/Props_pack/Textures/Materials using Guid(b2abc01e4d7c36c438453da28cf175ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a9b16c61c89f8f906678d9b529280f') in 0.002799 seconds
-  Import took 0.005922 seconds .
+  Time since last request: 5.443803 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animators/Boss.controller
+  artifactKey: Guid(49f5238ff4ea7904987eb88abce4e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animators/Boss.controller using Guid(49f5238ff4ea7904987eb88abce4e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d592ed6f8ed1f085ddef0d06b0ad0b') in 0.105011 seconds
+  Import took 0.112115 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.022659 seconds.
+Registered in 0.012372 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.26 ms.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.546 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 3.998200 ms (FindLiveObjects: 0.262000 ms CreateObjectMapping: 0.104100 ms MarkObjects: 3.582100 ms  DeleteObjects: 0.047400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 240.525273 seconds.
+  path: Assets/Animators
+  artifactKey: Guid(edffb3847321fde4187f5c3e39ff093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators using Guid(edffb3847321fde4187f5c3e39ff093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85fb0d809947ea6c89edd57215cf2d9') in 0.012588 seconds
+  Import took 0.021888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.439925 seconds.
+  path: Assets/Images
+  artifactKey: Guid(72e060b22db04e54884c81d99fab8b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(72e060b22db04e54884c81d99fab8b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973ae70d410029a4890b0576fc609242') in 0.005627 seconds
+  Import took 0.012516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.779217 seconds.
+  path: Assets/Prefabs/Materials
+  artifactKey: Guid(29d7a1f57fc769c49a7f9400563a2db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materials using Guid(29d7a1f57fc769c49a7f9400563a2db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809e4fe7651a17366a1b604b345be808') in 0.014020 seconds
+  Import took 0.021709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.342801 seconds.
+  path: Assets/Images/dialog.png
+  artifactKey: Guid(50dae3cf8637fc346b8adb68fb2aae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/dialog.png using Guid(50dae3cf8637fc346b8adb68fb2aae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac8441f4261accc5de3d60cc760b1fa') in 0.208159 seconds
+  Import took 0.216881 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014776 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.567 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.32 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.4 MB.
+System memory in use after: 100.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 4.042400 ms (FindLiveObjects: 0.291800 ms CreateObjectMapping: 0.139000 ms MarkObjects: 3.567200 ms  DeleteObjects: 0.042600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 202.416581 seconds.
+  path: Assets/Scripts/Warning.cs
+  artifactKey: Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Warning.cs using Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2fdef10d55792319808cf8c2141185') in 0.031377 seconds
+  Import took 0.038698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.425886 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Mesh/Polyart_Mesh.fbx
+  artifactKey: Guid(860793eb3324391468f1c120a75ec049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Mesh/Polyart_Mesh.fbx using Guid(860793eb3324391468f1c120a75ec049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fa3133c20bf8ba6d54920d86e4e063') in 0.687854 seconds
+  Import took 0.695913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.929938 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Mesh/PBR_HP_Mesh.fbx
+  artifactKey: Guid(5ae220fa0f79ffe41b0102a618febf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Mesh/PBR_HP_Mesh.fbx using Guid(5ae220fa0f79ffe41b0102a618febf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d99b7f1c458ce12a6e00d497751262') in 0.170452 seconds
+  Import took 0.179900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.884459 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animators/Machine.controller
+  artifactKey: Guid(6defa2fea7e9a934a8d2cafa30dc567a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animators/Machine.controller using Guid(6defa2fea7e9a934a8d2cafa30dc567a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f873181d94b50ad0f392590e9f800d75') in 0.058977 seconds
+  Import took 0.066632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.623249 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animations/WalkBack_Shoot_ar.fbx
+  artifactKey: Guid(669b29b2139d8de4ca5447dd50e201af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animations/WalkBack_Shoot_ar.fbx using Guid(669b29b2139d8de4ca5447dd50e201af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda86df207c2d14f4ab1ca82bc0bab17') in 0.199329 seconds
+  Import took 0.219702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.265115 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animations/WalkLeft_Shoot_ar.fbx
+  artifactKey: Guid(34d1b8e01a0412f449dcefc77b05e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animations/WalkLeft_Shoot_ar.fbx using Guid(34d1b8e01a0412f449dcefc77b05e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c173b34599c6191defe42413245512') in 0.212950 seconds
+  Import took 0.221081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.663501 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animations/Shoot_AutoShot_AR.fbx
+  artifactKey: Guid(76a61eccc11250c4da8bd7f1d87fa2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animations/Shoot_AutoShot_AR.fbx using Guid(76a61eccc11250c4da8bd7f1d87fa2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ac0d8b831580cb8a3452f2dc14f868') in 0.232799 seconds
+  Import took 0.248744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037458 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animations/Reload.fbx
+  artifactKey: Guid(45b9c258f262e844e8f5316722fc04c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animations/Reload.fbx using Guid(45b9c258f262e844e8f5316722fc04c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be11f4b00dd8a7f783a102a2a1879f2') in 0.223741 seconds
+  Import took 0.233159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.575580 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animations/Idle_Ducking_ar.fbx
+  artifactKey: Guid(3ad7c5979f6586d4a9532a55492a0ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animations/Idle_Ducking_ar.fbx using Guid(3ad7c5979f6586d4a9532a55492a0ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45c07d12326816b670d536563256393') in 0.221603 seconds
+  Import took 0.231282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125112 seconds.
+  path: Assets/SciFiWarriorPBRHPPolyart/Animations/AvatarMask.mask
+  artifactKey: Guid(e0402be4321aa2646a7af179c44591a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFiWarriorPBRHPPolyart/Animations/AvatarMask.mask using Guid(e0402be4321aa2646a7af179c44591a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947aadc8fbcd52d66c2a7b5386ce64e3') in 0.014455 seconds
+  Import took 0.022364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.199413 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(b7c27d4772af0e2478f9cd75ca7bb39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(b7c27d4772af0e2478f9cd75ca7bb39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d2a55060e87d891fd5684df7819b56') in 0.014614 seconds
+  Import took 0.022859 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.317 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.50 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 10.467300 ms (FindLiveObjects: 5.808100 ms CreateObjectMapping: 0.125100 ms MarkObjects: 4.484100 ms  DeleteObjects: 0.048000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.61 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.835 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.59 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 4.822300 ms (FindLiveObjects: 0.425100 ms CreateObjectMapping: 0.134200 ms MarkObjects: 4.190400 ms  DeleteObjects: 0.069700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 333.448582 seconds.
+  path: Assets/Scripts/Warning.cs
+  artifactKey: Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Warning.cs using Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510b00904cedb0ce2ac58b52c152c608') in 0.014523 seconds
+  Import took 0.024174 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.854 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2331.
+Total: 4.992500 ms (FindLiveObjects: 0.351500 ms CreateObjectMapping: 0.119400 ms MarkObjects: 4.482200 ms  DeleteObjects: 0.037000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.090630 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.858 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 4.788700 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.093200 ms MarkObjects: 4.277400 ms  DeleteObjects: 0.069900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1644.495575 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/XRInteractionManager.cs
+  artifactKey: Guid(83e4e6cca11330d4088d729ab4fc9d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/XRInteractionManager.cs using Guid(83e4e6cca11330d4088d729ab4fc9d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97828f49472735d34acae52492c1482b') in 0.014353 seconds
+  Import took 0.024645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009705 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/XRInteractionManager.cs
+  artifactKey: Guid(83e4e6cca11330d4088d729ab4fc9d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/XRInteractionManager.cs using Guid(83e4e6cca11330d4088d729ab4fc9d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97828f49472735d34acae52492c1482b') in 0.007565 seconds
+  Import took 0.015334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.444521 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/XRInteractionEvents.cs
+  artifactKey: Guid(771f39ba87bd85c4486262968b641c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/XRInteractionEvents.cs using Guid(771f39ba87bd85c4486262968b641c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad43fbfe4923d7db2136c6d9aa1c3402') in 0.006645 seconds
+  Import took 0.014153 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034882 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.752 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.52 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 4.797000 ms (FindLiveObjects: 0.344500 ms CreateObjectMapping: 0.119700 ms MarkObjects: 4.278900 ms  DeleteObjects: 0.051400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 824.673173 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/Controllers/XRController.cs
+  artifactKey: Guid(1ae26e19cd956134bbdf3c6f65bf393a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/Controllers/XRController.cs using Guid(1ae26e19cd956134bbdf3c6f65bf393a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3b826f21d61b14f100828a349565d4') in 0.012190 seconds
+  Import took 0.018989 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033832 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.210 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.78 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 4.650800 ms (FindLiveObjects: 0.379500 ms CreateObjectMapping: 0.126800 ms MarkObjects: 4.122700 ms  DeleteObjects: 0.019700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.056530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.65 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.090 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 4.898000 ms (FindLiveObjects: 0.501200 ms CreateObjectMapping: 0.186300 ms MarkObjects: 4.174900 ms  DeleteObjects: 0.032700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.732 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.44 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 5.013100 ms (FindLiveObjects: 0.563300 ms CreateObjectMapping: 0.131500 ms MarkObjects: 4.229900 ms  DeleteObjects: 0.084700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/zlzls/Desktop/VillainOst-main/VillainOst-main/Villain/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.727 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.68 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 4.765300 ms (FindLiveObjects: 0.380300 ms CreateObjectMapping: 0.126000 ms MarkObjects: 4.202800 ms  DeleteObjects: 0.053300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 7522.809544 seconds.
+  path: Assets/Images/dialog.png
+  artifactKey: Guid(50dae3cf8637fc346b8adb68fb2aae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/dialog.png using Guid(50dae3cf8637fc346b8adb68fb2aae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9613c26ea11b2ac0e45a2cb9d619ac8a') in 0.236851 seconds
+  Import took 0.245068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303910 seconds.
+  path: Assets/Images/WARNING.png
+  artifactKey: Guid(625d3e1650ed6ae41b93599e185ce1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/WARNING.png using Guid(625d3e1650ed6ae41b93599e185ce1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b2b7709b8c6adb58b563f66ca60d68') in 0.077789 seconds
+  Import took 0.085152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.338162 seconds.
+  path: Assets/Images/WARNING.png
+  artifactKey: Guid(625d3e1650ed6ae41b93599e185ce1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/WARNING.png using Guid(625d3e1650ed6ae41b93599e185ce1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbec4e9cf55c61ca382e54082ad37bbb') in 0.055182 seconds
+  Import took 0.072335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.388583 seconds.
+  path: Assets/Images/WARNING1.png
+  artifactKey: Guid(8c7c0bf76a22cee4d8af299bb1070216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/WARNING1.png using Guid(8c7c0bf76a22cee4d8af299bb1070216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f1cc88e0b9739e75a2c9af93836488') in 0.025694 seconds
+  Import took 0.033591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.441817 seconds.
+  path: Assets/Images/WARNING1.png
+  artifactKey: Guid(8c7c0bf76a22cee4d8af299bb1070216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/WARNING1.png using Guid(8c7c0bf76a22cee4d8af299bb1070216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3155ef228a4b6a5c04e045f9890a2049') in 0.029691 seconds
+  Import took 0.039508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.148599 seconds.
+  path: Assets/Images/WARNING1 1.png
+  artifactKey: Guid(ac971061a7df93a4d96ab92df53cb423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/WARNING1 1.png using Guid(ac971061a7df93a4d96ab92df53cb423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ee9d8941548b60f4f884bfaf4d42ff') in 0.019373 seconds
+  Import took 0.025573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.533258 seconds.
+  path: Assets/Images/WARNING1 1.png
+  artifactKey: Guid(ac971061a7df93a4d96ab92df53cb423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/WARNING1 1.png using Guid(ac971061a7df93a4d96ab92df53cb423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72738c3085a97d0249094210dcaff10e') in 0.028531 seconds
+  Import took 0.043431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.900865 seconds.
+  path: Assets/Images/dialog.png
+  artifactKey: Guid(50dae3cf8637fc346b8adb68fb2aae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/dialog.png using Guid(50dae3cf8637fc346b8adb68fb2aae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e30c16785083d404b4ce7374de540bc') in 0.053473 seconds
+  Import took 0.061802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.197561 seconds.
+  path: Assets/Images/dialog.png
+  artifactKey: Guid(50dae3cf8637fc346b8adb68fb2aae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/dialog.png using Guid(50dae3cf8637fc346b8adb68fb2aae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da90f1575902e76cd651ed1b5c9173c7') in 0.044791 seconds
+  Import took 0.053110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.833631 seconds.
+  path: Assets/Images/WARNING.png
+  artifactKey: Guid(625d3e1650ed6ae41b93599e185ce1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/WARNING.png using Guid(625d3e1650ed6ae41b93599e185ce1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ffb1fc1552a979e07a39c2da357026') in 0.034876 seconds
+  Import took 0.043823 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022084 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VR_Villian\VillainScene3\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VR_Villian\VillainScene3\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.735 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.60 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2406.
+Total: 5.061000 ms (FindLiveObjects: 0.456700 ms CreateObjectMapping: 0.151500 ms MarkObjects: 4.370000 ms  DeleteObjects: 0.080300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 212.426607 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(a2de004b0d881974cb6e5b857e397579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(a2de004b0d881974cb6e5b857e397579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92a4ac92898c89da23f5ef935f4e822') in 0.020962 seconds
+  Import took 0.028903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 442.943930 seconds.
+  path: Assets/Images/dialog.png
+  artifactKey: Guid(50dae3cf8637fc346b8adb68fb2aae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/dialog.png using Guid(50dae3cf8637fc346b8adb68fb2aae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8ccbde7618a716a420217bd436e426') in 0.238405 seconds
+  Import took 0.255457 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013220 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VR_Villian\VillainScene3\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VR_Villian\VillainScene3\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.663 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.53 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2411.
+Total: 5.687900 ms (FindLiveObjects: 0.308000 ms CreateObjectMapping: 0.075800 ms MarkObjects: 5.257900 ms  DeleteObjects: 0.044100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011842 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VR_Villian\VillainScene3\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VR_Villian\VillainScene3\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
 - Completed reload, in  2.732 seconds
 Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.47 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.44 ms.
-Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.3 MB.
-System memory in use after: 86.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2259.
-Total: 5.400700 ms (FindLiveObjects: 0.335900 ms CreateObjectMapping: 0.122400 ms MarkObjects: 4.866600 ms  DeleteObjects: 0.072100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 21.33 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51.2 MB.
-System memory in use after: 51.3 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2259.
-Total: 4.730200 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.131200 ms MarkObjects: 4.252300 ms  DeleteObjects: 0.048500 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 14.04 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.26 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51.2 MB.
-System memory in use after: 51.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2259.
-Total: 4.902900 ms (FindLiveObjects: 0.325400 ms CreateObjectMapping: 0.085800 ms MarkObjects: 4.457700 ms  DeleteObjects: 0.032000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.041753 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.915 seconds
-Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.51 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.46 ms.
-Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.3 MB.
-System memory in use after: 86.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2263.
-Total: 4.318600 ms (FindLiveObjects: 0.390900 ms CreateObjectMapping: 0.153200 ms MarkObjects: 3.681700 ms  DeleteObjects: 0.061300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 1998.842045 seconds.
-  path: Assets/Sound
-  artifactKey: Guid(50812baaf6cdf97498721df33d546643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound using Guid(50812baaf6cdf97498721df33d546643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e47456811539b1f71ec8f0b31cc33b') in 0.017592 seconds
-  Import took 0.025600 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008350 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.51 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.640 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.40 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.4 MB.
-System memory in use after: 86.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2268.
-Total: 4.113500 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.095600 ms MarkObjects: 3.686900 ms  DeleteObjects: 0.037800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 22.120837 seconds.
-  path: Assets/Scripts/Warning.cs
-  artifactKey: Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Warning.cs using Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac6951a4c35caf15d10fabb0a682278') in 0.033017 seconds
-  Import took 0.039597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.199151 seconds.
-  path: Assets/Sound/bossbgm.mp3
-  artifactKey: Guid(0b41a4f4917f3d24f99e5536ba83a612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/bossbgm.mp3 using Guid(0b41a4f4917f3d24f99e5536ba83a612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f8db75e9c46d8087de2f8f044b00ea') in 0.148052 seconds
-  Import took 0.156063 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012273 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.312 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.45 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.37 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2275.
-Total: 4.587600 ms (FindLiveObjects: 0.311300 ms CreateObjectMapping: 0.122100 ms MarkObjects: 4.089400 ms  DeleteObjects: 0.062000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009204 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.577 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.39 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.35 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2279.
-Total: 4.668000 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.120300 ms MarkObjects: 4.181900 ms  DeleteObjects: 0.031200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 152.734393 seconds.
-  path: Assets/Scripts/CustomController_B.cs
-  artifactKey: Guid(9619a0e2d6eb4534bada0120b013a076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CustomController_B.cs using Guid(9619a0e2d6eb4534bada0120b013a076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2f8fa4bd46285fd7273f250f9407cd') in 0.012878 seconds
-  Import took 0.019890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004961 seconds.
-  path: Assets/Scripts/CustomController_B.cs
-  artifactKey: Guid(9619a0e2d6eb4534bada0120b013a076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CustomController_B.cs using Guid(9619a0e2d6eb4534bada0120b013a076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2f8fa4bd46285fd7273f250f9407cd') in 0.004509 seconds
-  Import took 0.009443 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010441 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.30 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.023 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.46 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.41 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2283.
-Total: 5.536700 ms (FindLiveObjects: 0.372400 ms CreateObjectMapping: 0.122700 ms MarkObjects: 4.983100 ms  DeleteObjects: 0.055700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016780 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.769 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.35 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
-Total: 4.421800 ms (FindLiveObjects: 0.360800 ms CreateObjectMapping: 0.069800 ms MarkObjects: 3.939500 ms  DeleteObjects: 0.048300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009542 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.45 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.824 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.37 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.37 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2291.
-Total: 4.645600 ms (FindLiveObjects: 0.307600 ms CreateObjectMapping: 0.122100 ms MarkObjects: 4.157800 ms  DeleteObjects: 0.056000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008471 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.653 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.50 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.43 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2295.
-Total: 5.593100 ms (FindLiveObjects: 0.446200 ms CreateObjectMapping: 0.207200 ms MarkObjects: 4.901100 ms  DeleteObjects: 0.035600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011722 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.50 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.972 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.52 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.41 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2299.
-Total: 4.881600 ms (FindLiveObjects: 0.417500 ms CreateObjectMapping: 0.197000 ms MarkObjects: 4.214000 ms  DeleteObjects: 0.051000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014032 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.50 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.558 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.40 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2303.
-Total: 4.297900 ms (FindLiveObjects: 0.270300 ms CreateObjectMapping: 0.096900 ms MarkObjects: 3.885900 ms  DeleteObjects: 0.042500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016647 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.38 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.8 MB.
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.546 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.59 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.45 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2307.
-Total: 5.537300 ms (FindLiveObjects: 0.426300 ms CreateObjectMapping: 0.182600 ms MarkObjects: 4.874900 ms  DeleteObjects: 0.050300 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2415.
+Total: 3.818200 ms (FindLiveObjects: 0.404300 ms CreateObjectMapping: 0.168500 ms MarkObjects: 3.208900 ms  DeleteObjects: 0.034600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012022 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.76 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+Refreshing native plugins compatible for Editor in 17.47 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.6 MB.
+System memory in use after: 94.7 MB.
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2415.
+Total: 3.349100 ms (FindLiveObjects: 0.377600 ms CreateObjectMapping: 0.138000 ms MarkObjects: 2.811300 ms  DeleteObjects: 0.020600 ms)
 
-Mono: successfully reloaded assembly
-- Completed reload, in  2.614 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.52 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.44 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2311.
-Total: 4.605300 ms (FindLiveObjects: 0.336900 ms CreateObjectMapping: 0.138700 ms MarkObjects: 4.061900 ms  DeleteObjects: 0.064600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018119 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+Refreshing native plugins compatible for Editor in 18.90 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.37 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.6 MB.
+System memory in use after: 94.7 MB.
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.703 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2315.
-Total: 3.060400 ms (FindLiveObjects: 0.337100 ms CreateObjectMapping: 0.179600 ms MarkObjects: 2.482800 ms  DeleteObjects: 0.057600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011650 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.46 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.654 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.84 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.70 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2319.
-Total: 6.517000 ms (FindLiveObjects: 0.503200 ms CreateObjectMapping: 0.199000 ms MarkObjects: 5.784300 ms  DeleteObjects: 0.027700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017847 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.650 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2323.
-Total: 3.736800 ms (FindLiveObjects: 0.307000 ms CreateObjectMapping: 0.100800 ms MarkObjects: 3.128800 ms  DeleteObjects: 0.198200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 521.319017 seconds.
-  path: Assets/Scripts/MonsterCtrl3_C.cs
-  artifactKey: Guid(3d4ecb8d5716a2b41912c61bf2135ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MonsterCtrl3_C.cs using Guid(3d4ecb8d5716a2b41912c61bf2135ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141427e8ec8fcc516a981a5aa2b02aac') in 0.013347 seconds
-  Import took 0.021107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012274 seconds.
-  path: Assets/Scripts/MonsterCtrl3_C.cs
-  artifactKey: Guid(3d4ecb8d5716a2b41912c61bf2135ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MonsterCtrl3_C.cs using Guid(3d4ecb8d5716a2b41912c61bf2135ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141427e8ec8fcc516a981a5aa2b02aac') in 0.005050 seconds
-  Import took 0.013729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.263794 seconds.
-  path: Assets/Scripts/MonsterCtrl2_C.cs
-  artifactKey: Guid(f2410f0d02ddaf746ad163092ba3738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MonsterCtrl2_C.cs using Guid(f2410f0d02ddaf746ad163092ba3738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030ffa7764424bf5953f03bc18c8d229') in 0.014453 seconds
-  Import took 0.022388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002092 seconds.
-  path: Assets/Scripts/MonsterCtrl2_C.cs
-  artifactKey: Guid(f2410f0d02ddaf746ad163092ba3738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MonsterCtrl2_C.cs using Guid(f2410f0d02ddaf746ad163092ba3738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030ffa7764424bf5953f03bc18c8d229') in 0.007883 seconds
-  Import took 0.015740 seconds .
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2415.
+Total: 4.667700 ms (FindLiveObjects: 0.481400 ms CreateObjectMapping: 0.137800 ms MarkObjects: 4.016700 ms  DeleteObjects: 0.029000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.039661 seconds.
+Registered in 0.021673 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.52 ms.
+Refreshing native plugins compatible for Editor in 1.40 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VR_Villian\VillainScene3\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VR_Villian\VillainScene3\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.954 seconds
+- Completed reload, in  2.641 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.60 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.43 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 5.420500 ms (FindLiveObjects: 0.343700 ms CreateObjectMapping: 0.128400 ms MarkObjects: 4.889500 ms  DeleteObjects: 0.056000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013171 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.729 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 35.22 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.66 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2331.
-Total: 4.640100 ms (FindLiveObjects: 0.278400 ms CreateObjectMapping: 0.089600 ms MarkObjects: 4.222600 ms  DeleteObjects: 0.047000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012644 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.787 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.56 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2335.
-Total: 4.855100 ms (FindLiveObjects: 0.354400 ms CreateObjectMapping: 0.121500 ms MarkObjects: 4.327300 ms  DeleteObjects: 0.048600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014380 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.69 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.810 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.48 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.45 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2339.
-Total: 5.489100 ms (FindLiveObjects: 0.323000 ms CreateObjectMapping: 0.121800 ms MarkObjects: 4.987000 ms  DeleteObjects: 0.053800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004774 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.55 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.806 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.39 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2343.
-Total: 3.563500 ms (FindLiveObjects: 0.359100 ms CreateObjectMapping: 0.122000 ms MarkObjects: 3.042000 ms  DeleteObjects: 0.037400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008156 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.62 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.567 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.13 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2347.
-Total: 4.954800 ms (FindLiveObjects: 0.363300 ms CreateObjectMapping: 0.126600 ms MarkObjects: 4.415600 ms  DeleteObjects: 0.045500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011167 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.23 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.31 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.635 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.53 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 5.074000 ms (FindLiveObjects: 0.357600 ms CreateObjectMapping: 0.137600 ms MarkObjects: 4.525800 ms  DeleteObjects: 0.050400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010867 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.52 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.741 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2355.
-Total: 3.641900 ms (FindLiveObjects: 0.305800 ms CreateObjectMapping: 0.094400 ms MarkObjects: 3.218000 ms  DeleteObjects: 0.022100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011764 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.65 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.70 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.784 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.44 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2359.
-Total: 4.563600 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.074500 ms MarkObjects: 4.161400 ms  DeleteObjects: 0.024900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012568 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.30 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.758 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2363.
-Total: 5.028700 ms (FindLiveObjects: 0.293100 ms CreateObjectMapping: 0.078900 ms MarkObjects: 4.597900 ms  DeleteObjects: 0.056300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013451 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.44 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.670 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.39 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.37 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2367.
-Total: 3.618000 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.080100 ms MarkObjects: 3.239300 ms  DeleteObjects: 0.024600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017103 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.31 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.67 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.604 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.38 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2371.
-Total: 4.083700 ms (FindLiveObjects: 0.448600 ms CreateObjectMapping: 0.177500 ms MarkObjects: 3.426200 ms  DeleteObjects: 0.029800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012536 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.24 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.608 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.54 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2375.
-Total: 4.267700 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.051600 ms MarkObjects: 3.988600 ms  DeleteObjects: 0.040800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012430 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.49 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.54 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.975 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.90 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.62 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2379.
-Total: 8.101200 ms (FindLiveObjects: 0.497300 ms CreateObjectMapping: 0.184500 ms MarkObjects: 7.348000 ms  DeleteObjects: 0.069000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.116796 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.51 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.138 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.37 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2383.
-Total: 5.455600 ms (FindLiveObjects: 0.353900 ms CreateObjectMapping: 0.126700 ms MarkObjects: 4.922500 ms  DeleteObjects: 0.049200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019067 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.974 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.43 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.41 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2387.
-Total: 4.721300 ms (FindLiveObjects: 0.415000 ms CreateObjectMapping: 0.127000 ms MarkObjects: 4.133100 ms  DeleteObjects: 0.043300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 2634.792898 seconds.
-  path: Assets/Scripts/Warning.cs
-  artifactKey: Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Warning.cs using Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8be90402a1d978de3a0ba8588f5bfd') in 0.011919 seconds
-  Import took 0.018974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011561 seconds.
-  path: Assets/Scripts/Warning.cs
-  artifactKey: Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Warning.cs using Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8be90402a1d978de3a0ba8588f5bfd') in 0.006534 seconds
-  Import took 0.014028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.797027 seconds.
-  path: Assets/Scripts/Warning.cs
-  artifactKey: Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Warning.cs using Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf4470addd2b4e0ec317ddb6974074d') in 0.006533 seconds
-  Import took 0.016758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.213456 seconds.
-  path: Assets/Scripts/Warning.cs
-  artifactKey: Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Warning.cs using Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125d58a212356ded866bb15f16a55af6') in 0.008191 seconds
-  Import took 0.016357 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015926 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.46 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.794 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.38 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2391.
-Total: 5.851300 ms (FindLiveObjects: 0.573100 ms CreateObjectMapping: 0.171900 ms MarkObjects: 5.046600 ms  DeleteObjects: 0.056300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010251 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.734 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2395.
-Total: 3.471700 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.124100 ms MarkObjects: 3.101600 ms  DeleteObjects: 0.032600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 20.966841 seconds.
-  path: Assets/Scripts/Warning.cs
-  artifactKey: Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Warning.cs using Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e74a622333d91cd6645dfe2eee50b5d') in 0.010920 seconds
-  Import took 0.018679 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012517 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.64 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.34 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.880 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.22 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.41 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2399.
-Total: 3.889800 ms (FindLiveObjects: 0.359000 ms CreateObjectMapping: 0.076700 ms MarkObjects: 3.421900 ms  DeleteObjects: 0.028100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011812 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.02 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.62 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.878 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.57 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.67 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2403.
-Total: 6.112000 ms (FindLiveObjects: 0.620100 ms CreateObjectMapping: 0.133300 ms MarkObjects: 5.301900 ms  DeleteObjects: 0.053000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018069 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.45 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.838 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.41 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.31 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2407.
-Total: 3.017100 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.068900 ms MarkObjects: 2.645100 ms  DeleteObjects: 0.033700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010461 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.27 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.202 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.21 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.56 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2411.
-Total: 4.303100 ms (FindLiveObjects: 0.344100 ms CreateObjectMapping: 0.194900 ms MarkObjects: 3.702400 ms  DeleteObjects: 0.058800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012003 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.28 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.609 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.36 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2415.
-Total: 3.896500 ms (FindLiveObjects: 0.175200 ms CreateObjectMapping: 0.047600 ms MarkObjects: 3.626500 ms  DeleteObjects: 0.044300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 511.418557 seconds.
-  path: Assets/Scripts/Warning.cs
-  artifactKey: Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Warning.cs using Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3a69312a72ada09ff80c15afdc47c3') in 0.013827 seconds
-  Import took 0.022727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013896 seconds.
-  path: Assets/Scripts/Warning.cs
-  artifactKey: Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Warning.cs using Guid(59e936d194db5494b80764181427c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3a69312a72ada09ff80c15afdc47c3') in 0.007895 seconds
-  Import took 0.015538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.265513 seconds.
-  path: Assets/Scripts/MovementProvider_B.cs
-  artifactKey: Guid(610db97e042206f4f8183fd5fd991d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MovementProvider_B.cs using Guid(610db97e042206f4f8183fd5fd991d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e77c2eb313efdd7ae96114b51aa19c2') in 0.006955 seconds
-  Import took 0.017887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.365320 seconds.
-  path: Assets/Scripts/MonsterCtrl_C.cs
-  artifactKey: Guid(93bc332c802df72419419a44265f3452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MonsterCtrl_C.cs using Guid(93bc332c802df72419419a44265f3452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47152d3190245ab102e9e710a8fae530') in 0.007165 seconds
-  Import took 0.014239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.361018 seconds.
-  path: Assets/Scripts/MonsterCtrl4_C.cs
-  artifactKey: Guid(9ccb0f33422ca4441855f27875cf3167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MonsterCtrl4_C.cs using Guid(9ccb0f33422ca4441855f27875cf3167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bf77a325cd3f63f5698955ed73948b') in 0.007249 seconds
-  Import took 0.014777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004571 seconds.
-  path: Assets/Scripts/MonsterCtrl4_C.cs
-  artifactKey: Guid(9ccb0f33422ca4441855f27875cf3167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MonsterCtrl4_C.cs using Guid(9ccb0f33422ca4441855f27875cf3167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bf77a325cd3f63f5698955ed73948b') in 0.007271 seconds
-  Import took 0.014038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.557533 seconds.
-  path: Assets/Scripts/MenuUI_B.cs
-  artifactKey: Guid(1ed50a1a86fafed44ac984523dd08ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MenuUI_B.cs using Guid(1ed50a1a86fafed44ac984523dd08ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fcd2862fec8d2b435905fa421eebc9') in 0.006257 seconds
-  Import took 0.013957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006532 seconds.
-  path: Assets/Scripts/MenuUI_B.cs
-  artifactKey: Guid(1ed50a1a86fafed44ac984523dd08ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MenuUI_B.cs using Guid(1ed50a1a86fafed44ac984523dd08ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fcd2862fec8d2b435905fa421eebc9') in 0.007438 seconds
-  Import took 0.013342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.563463 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(90cf660328d1e854693d3a077bc4e204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(90cf660328d1e854693d3a077bc4e204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf28d9764a928ab520b38d05ba76846') in 0.007406 seconds
-  Import took 0.022394 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006670 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.84 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.51 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.083 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.83 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.45 ms.
-Unloading 1786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.9 MB.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.8 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2419.
-Total: 4.143700 ms (FindLiveObjects: 0.342600 ms CreateObjectMapping: 0.097500 ms MarkObjects: 3.653700 ms  DeleteObjects: 0.047300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 24.930486 seconds.
-  path: Assets/Scripts/Fade.cs
-  artifactKey: Guid(7166df63478042c45b0237dc5c7fed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Fade.cs using Guid(7166df63478042c45b0237dc5c7fed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba22252814af1e456ceb9cb970d8724') in 0.012115 seconds
-  Import took 0.019734 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013634 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.57 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.384 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.47 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.9 MB.
-System memory in use after: 87.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2424.
-Total: 5.126500 ms (FindLiveObjects: 0.388300 ms CreateObjectMapping: 0.148500 ms MarkObjects: 4.528800 ms  DeleteObjects: 0.058600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027602 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.24 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.79 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zlzls\Desktop\VillainOst-main\VillainOst-main\Villain\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.921 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.42 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.31 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.9 MB.
-System memory in use after: 87.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2428.
-Total: 4.257500 ms (FindLiveObjects: 0.329900 ms CreateObjectMapping: 0.049400 ms MarkObjects: 3.807700 ms  DeleteObjects: 0.067800 ms)
+Total: 4.567700 ms (FindLiveObjects: 0.354700 ms CreateObjectMapping: 0.126700 ms MarkObjects: 4.048900 ms  DeleteObjects: 0.035200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
