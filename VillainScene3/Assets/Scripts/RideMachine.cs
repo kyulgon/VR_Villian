@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class RideMachine : MonoBehaviour
 {
     public Image fadeImage;
+    public GameObject portalCube;
 
 
     void Start()
@@ -17,15 +18,17 @@ public class RideMachine : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Portal")
+        Debug.Log("A");
+        if (other.gameObject.tag == "Portal")
         {
+            Debug.Log("B");
             StartCoroutine(waitTime());
             StartCoroutine(FadeIn());
         }
     }
 
 
-IEnumerator FadeIn()
+    IEnumerator FadeIn()
     {
         Color startColor = fadeImage.color;
 
@@ -34,7 +37,7 @@ IEnumerator FadeIn()
             startColor.a = startColor.a + 0.01f;
             fadeImage.color = startColor;
             yield return new WaitForSeconds(0.01f);
-        }        
+        }
     }
 
     IEnumerator waitTime()
