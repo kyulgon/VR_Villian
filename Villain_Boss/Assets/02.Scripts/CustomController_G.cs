@@ -24,8 +24,6 @@ public class CustomController_G : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(Time.deltaTime);
-
         if(!availableDevice.isValid)
         {
             TryInitialize();
