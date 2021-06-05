@@ -15,7 +15,9 @@ public class CustomController_G : MonoBehaviour
     public bool renderController; // Hand와 Controller 사이를 변경할 변수
     public GameObject handmodel; // 핸드 모델 프리팹
     private GameObject handInstance; // 핸드 인스턴스
+
     private Animator handModelAnimator; // 핸드 모델 애니메이션 변수
+
 
     void Start()
     {
@@ -27,7 +29,6 @@ public class CustomController_G : MonoBehaviour
         if(!availableDevice.isValid)
         {
             TryInitialize();
-            return;
         }
 
         if(renderController)
@@ -41,6 +42,13 @@ public class CustomController_G : MonoBehaviour
             controllerInstance.SetActive(false);
             UpdateHandAnimation();
         }
+
+        //bool menuButtonValue;
+        //if (availableDevice.TryGetFeatureValue(CommonUsages.triggerButton, out  menuButtonValue) && menuButtonValue)
+        //{
+        //    GetComponent<MachineShoot_G>().Shoot();
+        //}
+
     }
 
     void TryInitialize()
@@ -51,8 +59,8 @@ public class CustomController_G : MonoBehaviour
         
         foreach (var device in devices) // device를 모두 검사하여 디버그 찍어줌
         {
-            Debug.Log($"Available Device Name : {device.name}, Characteristic : {device.characteristics}");
-            Debug.Log(devices.Count);
+            // Debug.Log($"Available Device Name : {device.name}, Characteristic : {device.characteristics}");
+            // Debug.Log(devices.Count);
         }
 
         if (devices.Count > 0)
@@ -86,7 +94,7 @@ public class CustomController_G : MonoBehaviour
 
     void UpdateHandAnimation() // Trigger, Grip 애니메이션 value값 넣기
     {
-        if(availableDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue)) 
+        if (availableDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
         {
             handModelAnimator.SetFloat("Trigger", triggerValue);
         }
@@ -95,7 +103,7 @@ public class CustomController_G : MonoBehaviour
             handModelAnimator.SetFloat("Trigger", 0);
         }
 
-        if(availableDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue))
+        if (availableDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue))
         {
             handModelAnimator.SetFloat("Grip", gripValue);
         }
@@ -103,5 +111,7 @@ public class CustomController_G : MonoBehaviour
         {
             handModelAnimator.SetFloat("Grip", 0);
         }
+
+        
     }
 }
