@@ -32,8 +32,15 @@ public class MonsterCtrl_G : MonoBehaviour
     private float maxhp = 100f;
     public Slider hpSlider;
 
+
+    public float timeBetFire = 0.12f; // 탄알 발사 간격
+    public float reloadTime = 1.8f; // 재장전 소요 시간
+    private float lastFireTime; // 총을 마지막으로 발사한 시점(연사 구현시 사용)
+
+
     public AudioSource attackClip;
     AudioSource attackAudio;
+
 
     void Start()
     {
@@ -44,7 +51,7 @@ public class MonsterCtrl_G : MonoBehaviour
         // nvAgent.destination = playerTr.position;
 
         StartCoroutine(this.CheckMonsterState());
-        StartCoroutine(this.MonsterAction());
+        
 
         attackAudio = GetComponent<AudioSource>();
     }
@@ -58,13 +65,21 @@ public class MonsterCtrl_G : MonoBehaviour
         hpSlider.value = hp / maxhp;
     }
 
+    public void Fire()
+    {
+        if (monsterState == MonsterState.attack && Time.time >= lastFireTime + timeBetFire) // 현재상태가 발사 가능한 상태 && 마지막 총 발사 시점에서 발사간격 이상의 시간이 지남
+        {
+            lastFireTime = Time.time; // 마지막 총 발사 시점 갱신
+            StartCoroutine(this.MonsterAction());
+        }
+    }
+
     public void GetDamage(float amount)
     {
         hp -= (int) (amount);
-        animator.SetTrigger("IsHit");
         hpSlider.value = hp;
 
-        if (hp < 0)
+        if (hp <= 0)
         {
             MonsterDie();
         }
@@ -94,7 +109,6 @@ public class MonsterCtrl_G : MonoBehaviour
             if(dist <= attackDist)
             {
                 monsterState = MonsterState.attack;
-
             }
             else if(dist <= traceDist)
             {
@@ -151,8 +165,19 @@ public class MonsterCtrl_G : MonoBehaviour
         isDie = true;
         monsterState = MonsterState.die;
         nvAgent.isStopped = true;
-        animator.SetTrigger("IsDie");
+        animator.SetBool("IsDie", true);
 
-        FindObjectOfType<MenuUI_G>().BossDie();
+        // FindObjectOfType<MenuUI_G>().BossDie();
+        gameObject.GetComponentInChildren<CapsuleCollider>().enabled = false;
+        foreach (Collider coll in gameObject.GetComponentsInChildren<SphereCollider>())
+        {
+            coll.enabled = false;
+        }
+        Destroy(this.gameObject, 3f); ;
     }
+
+
+    
+   
+
 }
