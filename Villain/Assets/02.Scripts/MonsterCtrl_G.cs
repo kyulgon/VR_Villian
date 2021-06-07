@@ -21,14 +21,15 @@ public class MonsterCtrl_G : MonoBehaviour
     private Animator animator;
 
 
-    public float traceDist = 100.0f; // 추적 사정거리
-    public float attackDist = 10f; // 공격 사정거리
+    public float traceDist = 10.0f; // 추적 사정거리
+    public float attackDist = 15f; // 공격 사정거리
+    public ParticleSystem bossAttackEffect; // 보스공격 이펙트
 
-    public float hp = 100.0f;
     private bool isDie = false; // 몬스터 사망 여부
     private float attackAmount = 15.0f;
-    private float maxhp = 100f;
 
+    public float hp = 100.0f;
+    private float maxhp = 100f;
     public Slider hpSlider;
 
     public AudioSource attackClip;
@@ -53,16 +54,19 @@ public class MonsterCtrl_G : MonoBehaviour
         //hpSlider.value = hp / maxhp;// 슬라이더 
         //nvAgent.destination = playerTr.position;
         //animator.SetBool("IsTrace", true);
+
+        hpSlider.value = hp / maxhp;
     }
 
     public void GetDamage(float amount)
     {
         hp -= (int) (amount);
         animator.SetTrigger("IsHit");
-        hpSlider.value = hp;//
+        hpSlider.value = hp;
+
         if (hp < 0)
         {
-            gameObject.SetActive(false);
+            MonsterDie();
         }
     }
 
@@ -90,6 +94,7 @@ public class MonsterCtrl_G : MonoBehaviour
             if(dist <= attackDist)
             {
                 monsterState = MonsterState.attack;
+
             }
             else if(dist <= traceDist)
             {
@@ -122,16 +127,24 @@ public class MonsterCtrl_G : MonoBehaviour
 
                 case MonsterState.attack:
                     nvAgent.isStopped = true;
-                    animator.SetBool("IsAttack", true);
+                    StartCoroutine(AttackEffect());
                     break;
             }
             yield return null;
         }
     }
 
+    IEnumerator AttackEffect()
+    {
+        animator.SetBool("IsAttack", true);
+        bossAttackEffect.Play();
+
+        yield return new WaitForSeconds(3.0f);
+    }
+
     void MonsterDie()
     {
-        if (isDie = true)
+        if (isDie == true)
             return;
 
         StopAllCoroutines();
