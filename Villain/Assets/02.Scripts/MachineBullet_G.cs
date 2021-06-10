@@ -16,18 +16,18 @@ public class MachineBullet_G : MonoBehaviour
         
     }
 
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if(other.tag == "BossMonster")
-    //    {
-    //        MonsterCtrl_G monster = other.GetComponent<MonsterCtrl_G>();
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "BossMonster")
+        {
+            MonsterCtrl_G monster = other.GetComponent<MonsterCtrl_G>();
 
-    //        if(monster != null)
-    //        {
-    //            monster.GetDamage(attackAmount);
-    //        }
-    //    }
+            if(monster != null)
+            {
+                monster.GetDamage(attackAmount);
+            }
+        }
 
-    //    Destroy(gameObject);
-    //}
+        Destroy(gameObject);
+    }
 }
