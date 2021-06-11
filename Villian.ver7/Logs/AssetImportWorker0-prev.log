@@ -1,0 +1,1125 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'ko' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/DMC CONET/Desktop/Villian.ver7 (2)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60470
+Successfully changed project path to: C:/Users/DMC CONET/Desktop/Villian.ver7 (2)
+C:/Users/DMC CONET/Desktop/Villian.ver7 (2)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.77 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/DMC CONET/Desktop/Villian.ver7 (2)/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001442 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.10 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.472 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\DMC CONET\Downloads\Villian.ver6\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\DMC CONET\Downloads\Villian.ver6\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/DMC CONET/Downloads/Villian.ver6/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 1667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.3 MB.
+System memory in use after: 168.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2150.
+Total: 2.028800 ms (FindLiveObjects: 0.279300 ms CreateObjectMapping: 0.145900 ms MarkObjects: 1.515800 ms  DeleteObjects: 0.086900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Effect_A/Materials/Smoke_explosion.mat
+  artifactKey: Guid(8350849aae5998e4ca0f12fcd3e9c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/Smoke_explosion.mat using Guid(8350849aae5998e4ca0f12fcd3e9c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba1f61e3a137057a0c9927be5b0ea26') in 0.091067 seconds
+  Import took 0.093745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Gun_A/vfx/Materials/No Name.mat
+  artifactKey: Guid(4181daa1aab84214eba5f27abb8ccd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/vfx/Materials/No Name.mat using Guid(4181daa1aab84214eba5f27abb8ccd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c61eafb6c45de637ca36bf6339bd04a') in 0.009930 seconds
+  Import took 0.012411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Roof_Plate.mat
+  artifactKey: Guid(8754034f85620bd429ada42d5598ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Roof_Plate.mat using Guid(8754034f85620bd429ada42d5598ec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6537e456d06cd88c28ea7077fc9352') in 0.058034 seconds
+  Import took 0.060544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Effect_A/Materials/Heart.mat
+  artifactKey: Guid(39fbad40cddaec94196b2768dba204a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/Heart.mat using Guid(39fbad40cddaec94196b2768dba204a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d63d8eb12cfab720f419f4cda57001') in 0.008916 seconds
+  Import took 0.011394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/OfficeEquipmentSet.mat
+  artifactKey: Guid(6124ac9d0bd68eb4bb32ba6d4146b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/OfficeEquipmentSet.mat using Guid(6124ac9d0bd68eb4bb32ba6d4146b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7ef6391a90f6948589530460a1d6eb') in 0.023358 seconds
+  Import took 0.026029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_Plastic_Tiles.mat
+  artifactKey: Guid(6dcc9dc3addb65842bde943c128f15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_Plastic_Tiles.mat using Guid(6dcc9dc3addb65842bde943c128f15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cf85672e50813b9fa82e8d5dfb79bf') in 0.032203 seconds
+  Import took 0.035136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/assets_A/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left.obj
+  artifactKey: Guid(548065693cc062a498475a5aeb86b70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left.obj using Guid(548065693cc062a498475a5aeb86b70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1428e2b57f1422b529ffa36dbabb9b96') in 0.060697 seconds
+  Import took 0.063449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/Multi_MaterialsTextures/Other_WoodBlack_Tiled.mat
+  artifactKey: Guid(3c2c4212fc8e97c4680835117e1a31ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/Multi_MaterialsTextures/Other_WoodBlack_Tiled.mat using Guid(3c2c4212fc8e97c4680835117e1a31ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fd59db6edf168f28fcfe4f3f4f4a11') in 0.043526 seconds
+  Import took 0.046018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Gun_A/Materials/Toon_MachineGun_01.mat
+  artifactKey: Guid(b4170eaf07bc9a84c8ad42bb45fba653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/Toon_MachineGun_01.mat using Guid(b4170eaf07bc9a84c8ad42bb45fba653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec41dbcb3a9daf987f69450b69ce080') in 0.018150 seconds
+  Import took 0.020570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Plant_Inside.mat
+  artifactKey: Guid(59c9d13d740b3fa48bf2e86ae81d0559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Plant_Inside.mat using Guid(59c9d13d740b3fa48bf2e86ae81d0559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4439d0b933efa8fcd1b29cca148ec364') in 0.010824 seconds
+  Import took 0.013344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Leaf_add.mat
+  artifactKey: Guid(44d05b8417ac34f3385162907d8c6ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Leaf_add.mat using Guid(44d05b8417ac34f3385162907d8c6ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed028cac88f6529ef28e6b3d4587c12b') in 0.018073 seconds
+  Import took 0.020454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Gun_A/Materials/DSN_MachineGun_05.mat
+  artifactKey: Guid(2d71bb3f9bd7845468f6e38882589618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/DSN_MachineGun_05.mat using Guid(2d71bb3f9bd7845468f6e38882589618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4edaac3a05e99e053306fdc04157d1e') in 0.037611 seconds
+  Import took 0.039978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Lamps_On.mat
+  artifactKey: Guid(c5f42e0aa85c53e4ea03371db6f7094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Lamps_On.mat using Guid(c5f42e0aa85c53e4ea03371db6f7094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda286246eedfa3b8abb24ca838dd1f2') in 0.020607 seconds
+  Import took 0.022974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Dust_dark.mat
+  artifactKey: Guid(7eef56fd00ee74deb94853222335d57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Dust_dark.mat using Guid(7eef56fd00ee74deb94853222335d57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52eadab8085c291e29e55e1a199ff6ef') in 0.020719 seconds
+  Import took 0.023153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Gun_A/Materials/Toon_MachineGun_09.mat
+  artifactKey: Guid(0af9a241835ac924c994a232ad60a307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/Toon_MachineGun_09.mat using Guid(0af9a241835ac924c994a232ad60a307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6b93b80266f63b571da8236b6acd4d') in 0.018283 seconds
+  Import took 0.020718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/LCD_Screens_Off.mat
+  artifactKey: Guid(dc70e0cb2395ec54cbb40c7c9f64ebbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/LCD_Screens_Off.mat using Guid(dc70e0cb2395ec54cbb40c7c9f64ebbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2277d13d225adc851703492b4d7847f8') in 0.010235 seconds
+  Import took 0.012934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/oculusriftscontleft.mat
+  artifactKey: Guid(04267dafa4c3044999d11f582052670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/oculusriftscontleft.mat using Guid(04267dafa4c3044999d11f582052670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656ebac68f789daaf872a6a2f30d80e7') in 0.008673 seconds
+  Import took 0.011135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/Materials/external_controller01_col.mat
+  artifactKey: Guid(8a2c36a73f5f44c9b8df148310088323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/Materials/external_controller01_col.mat using Guid(8a2c36a73f5f44c9b8df148310088323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ddaf35e9341abfd1be80a8dddcf699') in 0.063770 seconds
+  Import took 0.066213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Gun_A/Materials/DSN_MachineGun_08.mat
+  artifactKey: Guid(86aecded5a65c83468bc47c87e690361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/DSN_MachineGun_08.mat using Guid(86aecded5a65c83468bc47c87e690361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9d7c765ee94872857f137a526b7f92') in 0.037553 seconds
+  Import took 0.039928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Effect_A/Materials/Smoke_thin.mat
+  artifactKey: Guid(8764e26efc3afff4db4bfbabc8fd2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/Smoke_thin.mat using Guid(8764e26efc3afff4db4bfbabc8fd2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7ba34dff80839cb78312b22e885b2f') in 0.008766 seconds
+  Import took 0.011155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Water_Dispenser.mat
+  artifactKey: Guid(6fe1b44aa33564045be6ae69cf6e497d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Water_Dispenser.mat using Guid(6fe1b44aa33564045be6ae69cf6e497d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adc58412209f08fb4db8df3586b25a9') in 0.049071 seconds
+  Import took 0.051607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Sword_A/Materials/mat_sword_wakizashi.mat
+  artifactKey: Guid(a25cff8308e087841a7777d19d965a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword_A/Materials/mat_sword_wakizashi.mat using Guid(a25cff8308e087841a7777d19d965a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e3e998d1d2d9baf4fac2233fb29b17') in 0.153244 seconds
+  Import took 0.155697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Gun_A/Materials/Toon_MachineGun_07.mat
+  artifactKey: Guid(bf6ade81f3d210d4294ec7a807dad8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/Toon_MachineGun_07.mat using Guid(bf6ade81f3d210d4294ec7a807dad8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec5618a809d7aad75bd1892aa0f05fb') in 0.019117 seconds
+  Import took 0.021702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Ring_02.mat
+  artifactKey: Guid(99f44e7b780314fafa1e185b810e86f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Ring_02.mat using Guid(99f44e7b780314fafa1e185b810e86f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cfa839c134ae7eea5fc36e8ec3cd8b') in 0.022425 seconds
+  Import took 0.025023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_GreenWhiteBox.mat
+  artifactKey: Guid(2f6d5c534fa3d2941a977b71f80bdc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_GreenWhiteBox.mat using Guid(2f6d5c534fa3d2941a977b71f80bdc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5fd3262e88e296bc964a4251f0d3f6') in 0.029588 seconds
+  Import took 0.032290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Glow_01.mat
+  artifactKey: Guid(672e67cec4c2f4e7b8f784efeb4aa53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Glow_01.mat using Guid(672e67cec4c2f4e7b8f784efeb4aa53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045942e14a9d1595d5dcb039ebbe851f') in 0.011427 seconds
+  Import took 0.014070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Gun_A/Materials/Toon_MachineGun_03.mat
+  artifactKey: Guid(12d8abd20ef61d945b2433b9e3f0c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/Toon_MachineGun_03.mat using Guid(12d8abd20ef61d945b2433b9e3f0c46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f26a2cc4eb4fe531a0b07a12693512') in 0.019894 seconds
+  Import took 0.022722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.obj
+  artifactKey: Guid(a80f072576863f64d88a418ce0403b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.obj using Guid(a80f072576863f64d88a418ce0403b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8a59125aebc2176ee300d1ff54643a') in 0.053112 seconds
+  Import took 0.055955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Skybox_A.mat
+  artifactKey: Guid(ef23ca594da91c84fabca3c4ade8178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox_A.mat using Guid(ef23ca594da91c84fabca3c4ade8178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d92edee4f8a8c1c45be4894057e8fbd') in 0.013419 seconds
+  Import took 0.016585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/Materials/right_diff.mat
+  artifactKey: Guid(4c2c0e57ea5934aeeb618a5f71f4de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/Materials/right_diff.mat using Guid(4c2c0e57ea5934aeeb618a5f71f4de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c6302146c8b4fc6701a17fc2479e9f') in 0.046997 seconds
+  Import took 0.049774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Leaf_alpha.mat
+  artifactKey: Guid(8d889463f8b5b491ba87c7cf14fec03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Leaf_alpha.mat using Guid(8d889463f8b5b491ba87c7cf14fec03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0148819fd5d075d66485cbfa110bc222') in 0.019151 seconds
+  Import took 0.021650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sword_A/Demo/Textures/matWireframe.mat
+  artifactKey: Guid(7e4bb03dbdc5784419ac344dbcfb46f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword_A/Demo/Textures/matWireframe.mat using Guid(7e4bb03dbdc5784419ac344dbcfb46f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03636c1823b13f0b1d08be5ebf03e6c9') in 0.011969 seconds
+  Import took 0.014558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Ground_noise.mat
+  artifactKey: Guid(3229860d9c566490897f1f0bea677aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Ground_noise.mat using Guid(3229860d9c566490897f1f0bea677aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95644d7488f1b4354535bd87acea56e1') in 0.009974 seconds
+  Import took 0.012980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/assets_A/Oculus Hands/Materials/Hands_solid.mat
+  artifactKey: Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/Oculus Hands/Materials/Hands_solid.mat using Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69477284a8727e7c21ab54f175ba39c0') in 0.010236 seconds
+  Import took 0.012787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Paintings.mat
+  artifactKey: Guid(eb359f30e023542479224bd6806ba7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Paintings.mat using Guid(eb359f30e023542479224bd6806ba7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c338db5a64c128f057a2ea8429a0e429') in 0.011507 seconds
+  Import took 0.014123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Woodenpanel.mat
+  artifactKey: Guid(003998aeefd79b649816e670fc878435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Woodenpanel.mat using Guid(003998aeefd79b649816e670fc878435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8a1b31093316d0c66e70e244cb71ff') in 0.032468 seconds
+  Import took 0.035179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Gun_A/Materials/Toon_MachineGun_10.mat
+  artifactKey: Guid(244ec3b617befcc40a40c82a10bcc5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/Toon_MachineGun_10.mat using Guid(244ec3b617befcc40a40c82a10bcc5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22acc61f2e44f6a3c3645227006d99fc') in 0.020002 seconds
+  Import took 0.022791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/Multi_MaterialsTextures/Glass.mat
+  artifactKey: Guid(cb2271e2964052b41911d78d6f1112f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/Multi_MaterialsTextures/Glass.mat using Guid(cb2271e2964052b41911d78d6f1112f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e66416baae2a56a12f39a2bacd58f0') in 0.025846 seconds
+  Import took 0.028517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Gun_A/Materials/Toon_MachineGun_05.mat
+  artifactKey: Guid(b9df7cc1836289a479eea5a292ff5fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/Toon_MachineGun_05.mat using Guid(b9df7cc1836289a479eea5a292ff5fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283bcee9a7c66fb5dc98079c67c5800b') in 0.020496 seconds
+  Import took 0.022984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Ring_01_add.mat
+  artifactKey: Guid(79d0251c044c4454f92336cee8adebb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Ring_01_add.mat using Guid(79d0251c044c4454f92336cee8adebb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029fa709b7f70739eb28a5d7f0e599b9') in 0.021192 seconds
+  Import took 0.023791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Plaster_White.mat
+  artifactKey: Guid(c67c75f83f9deb640b00a540a89b13ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Plaster_White.mat using Guid(c67c75f83f9deb640b00a540a89b13ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1761b050774a93636ded89212fb699b1') in 0.028592 seconds
+  Import took 0.031249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Gun_A/Materials/Toon_MachineGun_08.mat
+  artifactKey: Guid(b9666236f41956740802d76701f74cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/Toon_MachineGun_08.mat using Guid(b9666236f41956740802d76701f74cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b690b1d088149837bfca43dfd93d95') in 0.018061 seconds
+  Import took 0.020532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Gun_A/Materials/MachineGun_01 [AlbedoM].mat
+  artifactKey: Guid(ec9f5a0217320ed49baf30d24d1e85e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/MachineGun_01 [AlbedoM].mat using Guid(ec9f5a0217320ed49baf30d24d1e85e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7b517c15f08e18365227ef4b312a72') in 0.008468 seconds
+  Import took 0.011317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Plant_01.mat
+  artifactKey: Guid(42490d8e6711f42449e3e0578f023608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Plant_01.mat using Guid(42490d8e6711f42449e3e0578f023608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdce725ec07c4d6c1f80eec4b079b5e4') in 1.550950 seconds
+  Import took 1.553574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_CarpetBlue_Pattern.mat
+  artifactKey: Guid(b0e24f8b390576249a683bb0c5eb60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_CarpetBlue_Pattern.mat using Guid(b0e24f8b390576249a683bb0c5eb60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59150739dc51088518f13ac1f0443725') in 0.029226 seconds
+  Import took 0.031791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Shadow_03.mat
+  artifactKey: Guid(63eb2e29b4ddb4672b75eb483096c0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Shadow_03.mat using Guid(63eb2e29b4ddb4672b75eb483096c0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea5afa5dfd7b0671087b6f81503e334') in 0.012683 seconds
+  Import took 0.015100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Rocks.mat
+  artifactKey: Guid(520fbc40db7314c118e158185a06f22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Rocks.mat using Guid(520fbc40db7314c118e158185a06f22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1919b0e0da6d3349472011fc9602871a') in 0.009018 seconds
+  Import took 0.011802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/assets_A/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/Valve Index Mat Right.mat
+  artifactKey: Guid(abe73698f82111f4bbdfc4065a667235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/Valve Index Mat Right.mat using Guid(abe73698f82111f4bbdfc4065a667235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4ac5c6aef18e07587f61f61dc7d40d') in 0.047245 seconds
+  Import took 0.049771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Sword_A/Mesh/Materials/swordtex_temp.mat
+  artifactKey: Guid(e97b1cc694dfccd45ad8e17173233a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword_A/Mesh/Materials/swordtex_temp.mat using Guid(e97b1cc694dfccd45ad8e17173233a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c273fd5b8afcbcb86889f97371168171') in 0.009126 seconds
+  Import took 0.011525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Gun_A/Materials/DSN_MachineGun_06.mat
+  artifactKey: Guid(2201313db4f788a4db28a9c82b22e370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/DSN_MachineGun_06.mat using Guid(2201313db4f788a4db28a9c82b22e370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf5f5648b0e33a6682b9c46d1745f4d') in 0.037806 seconds
+  Import took 0.040213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Plaster_WhiteBlue.mat
+  artifactKey: Guid(6d26444e623b58b4bacaca50ad69ef6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Plaster_WhiteBlue.mat using Guid(6d26444e623b58b4bacaca50ad69ef6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300f590db66213b2d3a1061015692ff4') in 0.028189 seconds
+  Import took 0.030616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Mesh/Plane_02.fbx
+  artifactKey: Guid(ceaf2b9d3f6ea4cb99fd6515dca9cf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Mesh/Plane_02.fbx using Guid(ceaf2b9d3f6ea4cb99fd6515dca9cf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29994f430053888aa473f6f45488fe68') in 0.016320 seconds
+  Import took 0.018803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Trashcan_Metal.mat
+  artifactKey: Guid(0b1712eee6eab5f4fbe657b55b7efe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Trashcan_Metal.mat using Guid(0b1712eee6eab5f4fbe657b55b7efe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d51d4e8fe7109a114e8fa1c4097c80') in 0.039822 seconds
+  Import took 0.042282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Musical_ground_01.mat
+  artifactKey: Guid(d1beb608bbd3549e9abc0581a9d6f899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Musical_ground_01.mat using Guid(d1beb608bbd3549e9abc0581a9d6f899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360c63beb42f2615f25d1472a8cd9f30') in 0.018333 seconds
+  Import took 0.020903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Gun_A/Materials/DSN_MachineGun_07.mat
+  artifactKey: Guid(9920f2db87b9beb47a0bf446f2423acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/DSN_MachineGun_07.mat using Guid(9920f2db87b9beb47a0bf446f2423acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473569a046b14a64c780a5bff7ded4a0') in 0.047937 seconds
+  Import took 0.050491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.674180 seconds.
+  path: Assets/Scenes_A/Office.unity
+  artifactKey: Guid(555d36f24ea244145b20fea30af73413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes_A/Office.unity using Guid(555d36f24ea244145b20fea30af73413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cc7fdf678d21be0304f297f826b434') in 0.005641 seconds
+  Import took 0.008664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.130410 seconds.
+  path: Assets/Gun_A/Materials/DSN_MachineGun_09.mat
+  artifactKey: Guid(b6c8109dde2b213429be8c107af7e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/DSN_MachineGun_09.mat using Guid(b6c8109dde2b213429be8c107af7e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e528f1ee3da6c12f952d532d16159176') in 0.043530 seconds
+  Import took 0.046283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_Rock_Gray.mat
+  artifactKey: Guid(325d1e2390d40b14a8e351f67e49f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_Rock_Gray.mat using Guid(325d1e2390d40b14a8e351f67e49f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7ac2174e16f61003f1c14c72cdfd50') in 0.031171 seconds
+  Import took 0.033623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/Materials/external_controller01_col.mat
+  artifactKey: Guid(9eeec58b39f3b4218866520db6ad2edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/Materials/external_controller01_col.mat using Guid(9eeec58b39f3b4218866520db6ad2edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585f0eb4214f5a18281d481e4d978073') in 0.045185 seconds
+  Import took 0.047722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_Marble.mat
+  artifactKey: Guid(de06e81c146e8b7498dc779f6af4fbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_Marble.mat using Guid(de06e81c146e8b7498dc779f6af4fbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc00d350c543e72bb6b92298a78275b') in 0.032238 seconds
+  Import took 0.034831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Handpainted_rock.mat
+  artifactKey: Guid(baa4297085c1f461686a49415f372ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Handpainted_rock.mat using Guid(baa4297085c1f461686a49415f372ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e0427af4934d436d65426f501b141b') in 0.016342 seconds
+  Import took 0.018742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Dust.mat
+  artifactKey: Guid(6ccabc3d4a51f4980b2ee671230417fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Dust.mat using Guid(6ccabc3d4a51f4980b2ee671230417fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fa007c35d96b34105dcf02e695c587') in 0.021183 seconds
+  Import took 0.023829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Magic_ground_01.mat
+  artifactKey: Guid(f7ec2d6822ed74058bc484eb962750a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Magic_ground_01.mat using Guid(f7ec2d6822ed74058bc484eb962750a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f7011b965315db1e679382e481d2f5') in 0.011193 seconds
+  Import took 0.013756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sword_A/Demo/Textures/mat_skybox.mat
+  artifactKey: Guid(c462edf34c618f74b822442f38ed29fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword_A/Demo/Textures/mat_skybox.mat using Guid(c462edf34c618f74b822442f38ed29fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053b9efdb9f6d8736d5c3c9937112acb') in 0.008582 seconds
+  Import took 0.011149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Gun_A/Materials/DSN_MachineGun_09.mat
+  artifactKey: Guid(b6c8109dde2b213429be8c107af7e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/DSN_MachineGun_09.mat using Guid(b6c8109dde2b213429be8c107af7e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e528f1ee3da6c12f952d532d16159176') in 0.038768 seconds
+  Import took 0.041478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Effect_A/Materials/Fire_A.mat
+  artifactKey: Guid(b465c451c01c117458142e3e46fe035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/Fire_A.mat using Guid(b465c451c01c117458142e3e46fe035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f196a62a24de73b417f736fceb39b80c') in 0.008916 seconds
+  Import took 0.011543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sword_A/Materials/mat_saya_wakizashi.mat
+  artifactKey: Guid(5097d7cc515d9984895ab83b142bafe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword_A/Materials/mat_saya_wakizashi.mat using Guid(5097d7cc515d9984895ab83b142bafe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f807bfadbc9048023a25c7458dc540') in 0.045148 seconds
+  Import took 0.047691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Gun_A/Materials/DSN_MachineGun_10.mat
+  artifactKey: Guid(a889d6d84020ace4b8acf4f12ecaeccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/DSN_MachineGun_10.mat using Guid(a889d6d84020ace4b8acf4f12ecaeccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c80937a088d0cde5733eb50feb92a0') in 0.039667 seconds
+  Import took 0.042158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Effect_A/Materials/FireParticle_A.mat
+  artifactKey: Guid(abc49fa8b01f5314c880641bc7c5986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/FireParticle_A.mat using Guid(abc49fa8b01f5314c880641bc7c5986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d120d972b84aae0936dd517802ef0cf') in 0.008563 seconds
+  Import took 0.010998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/GunMaterial_A.mat
+  artifactKey: Guid(2fb1f84f8ff522347a94bc5c9a684123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GunMaterial_A.mat using Guid(2fb1f84f8ff522347a94bc5c9a684123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70eff844eb5746526ce6a01eba403f20') in 0.008595 seconds
+  Import took 0.011108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Effect_A/Materials/FireParticle_A.mat
+  artifactKey: Guid(abc49fa8b01f5314c880641bc7c5986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/FireParticle_A.mat using Guid(abc49fa8b01f5314c880641bc7c5986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d120d972b84aae0936dd517802ef0cf') in 0.006741 seconds
+  Import took 0.009422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_CarpetBlue.mat
+  artifactKey: Guid(ca86af30d36c4d84fb0bd22c7094e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Floor_CarpetBlue.mat using Guid(ca86af30d36c4d84fb0bd22c7094e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1e286f05ce9892f20b19b400625b97') in 0.030813 seconds
+  Import took 0.033532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/LCD_Screens.mat
+  artifactKey: Guid(6fbcea03b6a295141b3f86917c1720ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/LCD_Screens.mat using Guid(6fbcea03b6a295141b3f86917c1720ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97c01ee80552693f858c00d10c471dc') in 0.011864 seconds
+  Import took 0.014539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/ForceShielPattern.mat
+  artifactKey: Guid(50a4794be16474ca8bc5cd73cae90c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/ForceShielPattern.mat using Guid(50a4794be16474ca8bc5cd73cae90c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1df91e4c9780b5a13ee8e2b166422e') in 0.009548 seconds
+  Import took 0.011975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Materials/Floor_GreenWhiteBox_d.mat
+  artifactKey: Guid(4279c1cb88ed35c47acf1c6d342d543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Materials/Floor_GreenWhiteBox_d.mat using Guid(4279c1cb88ed35c47acf1c6d342d543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8f6fb3bb3aca8f400332dc4c1d16aa') in 0.020318 seconds
+  Import took 0.022938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194794 seconds.
+  path: Assets/Sword_A/Demo/Textures/mat_Tatami.mat
+  artifactKey: Guid(4146e79b747baac42b43c514f18bbc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword_A/Demo/Textures/mat_Tatami.mat using Guid(4146e79b747baac42b43c514f18bbc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e3fab6eee2f2a470ca0816ee667369') in 0.139816 seconds
+  Import took 0.142503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Effect_A/Materials/MuzzleFlash.mat
+  artifactKey: Guid(c87875f717377f74f84d94ac4def6622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/MuzzleFlash.mat using Guid(c87875f717377f74f84d94ac4def6622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4887b6803e0270643a900364997e7f02') in 0.164834 seconds
+  Import took 0.167430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right.obj
+  artifactKey: Guid(115d751b184b79946acb67c5c52446a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right.obj using Guid(115d751b184b79946acb67c5c52446a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9695bc5ad5d8f153a21b709db7ad757') in 0.016962 seconds
+  Import took 0.019443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/assets_A/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right.obj
+  artifactKey: Guid(c081c5f65c2facd4284b1d6315923bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right.obj using Guid(c081c5f65c2facd4284b1d6315923bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fd7a7c53bc350095e7755e0b1b61ff') in 0.018387 seconds
+  Import took 0.020980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/Multi_MaterialsTextures/Metal_Cleantiled.mat
+  artifactKey: Guid(d0a2fd7db8c28044c88988324156fee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/Multi_MaterialsTextures/Metal_Cleantiled.mat using Guid(d0a2fd7db8c28044c88988324156fee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f921996b451f548ea2de5783c3377c6') in 0.028649 seconds
+  Import took 0.031175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Cell_Concrete.mat
+  artifactKey: Guid(f95d63e266f895b4e9756a540e6a3302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Cell_Concrete.mat using Guid(f95d63e266f895b4e9756a540e6a3302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ece6f12bbe4b46bf6266b565d6e9ff1') in 0.029072 seconds
+  Import took 0.031603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Roof_Plate2.mat
+  artifactKey: Guid(606bc62e8e23d1a4f878cd82165618ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Roof_Plate2.mat using Guid(606bc62e8e23d1a4f878cd82165618ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e962919abd2c74741da2bb8fbfd85dc6') in 0.040091 seconds
+  Import took 0.042881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Windowframe.mat
+  artifactKey: Guid(4bb53bd0dd9ed494bbdc0330daedb0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Windowframe.mat using Guid(4bb53bd0dd9ed494bbdc0330daedb0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be0b98d30840f494c7fad48af8a629c') in 0.148077 seconds
+  Import took 0.150586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Stucco_White.mat
+  artifactKey: Guid(9e14b91c124f40844babf8171a66d570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Stucco_White.mat using Guid(9e14b91c124f40844babf8171a66d570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41739be5e641ca51ace3dc705eb09d6') in 0.030683 seconds
+  Import took 0.033148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Small_glow_pink.mat
+  artifactKey: Guid(33ad03f3c870c425a9b52780c9530abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Small_glow_pink.mat using Guid(33ad03f3c870c425a9b52780c9530abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43125ca2d0522a81c84818d3f708ca86') in 0.010092 seconds
+  Import took 0.012567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Effect_A/Materials/Slash.mat
+  artifactKey: Guid(7ab6922abe596f14bbeacc00ae8c81be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/Slash.mat using Guid(7ab6922abe596f14bbeacc00ae8c81be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b4ed6038093d08ccb32238a370a3c5') in 0.008341 seconds
+  Import took 0.010918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Gun_A/Materials/Toon_MachineGun_04.mat
+  artifactKey: Guid(912f5c1c87ad85d46aaf8c36ca78cfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/Toon_MachineGun_04.mat using Guid(912f5c1c87ad85d46aaf8c36ca78cfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8fc4483562e86d49e1b6bc4e35afb7') in 0.019639 seconds
+  Import took 0.022185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Gun_A/Materials/Toon_MachineGun_02.mat
+  artifactKey: Guid(bebb7b899f9bf194bab36a98942f5faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/Toon_MachineGun_02.mat using Guid(bebb7b899f9bf194bab36a98942f5faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3233731d1e6c52a689ed090439bf4d7') in 0.018396 seconds
+  Import took 0.020857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Office_PropSet.mat
+  artifactKey: Guid(97fc47f627180984584f10b4d40cc802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Office_PropSet.mat using Guid(97fc47f627180984584f10b4d40cc802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ffb78fb73867ae03362c2e3af4587f') in 0.015895 seconds
+  Import took 0.018427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Small_glow_fire.mat
+  artifactKey: Guid(99727f46f46434a4c879322c36d66d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Small_glow_fire.mat using Guid(99727f46f46434a4c879322c36d66d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a3f0c1a9792d2911d4f70a5d9dc16e') in 0.009734 seconds
+  Import took 0.012135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Effect_A/Materials/PlaneBlack.mat
+  artifactKey: Guid(d8a7d31f497e15a47859d4c852dcee03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/PlaneBlack.mat using Guid(d8a7d31f497e15a47859d4c852dcee03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f36f743fa8690c44e81631c9f2afc6') in 0.008415 seconds
+  Import took 0.010959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Effect_A/Materials/ShockWave.mat
+  artifactKey: Guid(5f99d3e552fc62a46adcae1142016e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/ShockWave.mat using Guid(5f99d3e552fc62a46adcae1142016e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e3c2bebf826b41ea374583d3295108') in 0.009768 seconds
+  Import took 0.012697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Effect_A/Materials/SparkParticle.mat
+  artifactKey: Guid(188bbd7714ed53b4ab47e30ee1f8c00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/SparkParticle.mat using Guid(188bbd7714ed53b4ab47e30ee1f8c00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6e352502e7bdfee9c52827dc0b8b10') in 0.055039 seconds
+  Import took 0.057832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Musical_note.mat
+  artifactKey: Guid(f67d36616a1cf470e892ad6f59e9c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Musical_note.mat using Guid(f67d36616a1cf470e892ad6f59e9c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64b0e24b8516e25a86550f744f587e6') in 0.110351 seconds
+  Import took 0.112806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/WindowBlinds.mat
+  artifactKey: Guid(48b8b2bce0004db48ad316e7dad57e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/WindowBlinds.mat using Guid(48b8b2bce0004db48ad316e7dad57e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb02985a006c22dd45cbb0be2aeac93') in 0.018179 seconds
+  Import took 0.020790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Weapons_ChamferZone_A/Grenade/Materials/WPNM_MK2Grenade.mat
+  artifactKey: Guid(9952917b17613844b8581ba61f3066c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons_ChamferZone_A/Grenade/Materials/WPNM_MK2Grenade.mat using Guid(9952917b17613844b8581ba61f3066c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d7ef3a2b8e3488eb936c66c55af495') in 0.205150 seconds
+  Import took 0.207890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Table_And_Screen.mat
+  artifactKey: Guid(348bc921fdc47ea408f22b64f2cd78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Table_And_Screen.mat using Guid(348bc921fdc47ea408f22b64f2cd78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426f26f35ce18f721d8f8b9f563fec80') in 0.013191 seconds
+  Import took 0.016037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Plaster_Blue.mat
+  artifactKey: Guid(43738423c108ae0479e1ec7979a2bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Building/MaterialsTextures/Wall_Plaster_Blue.mat using Guid(43738423c108ae0479e1ec7979a2bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dc98a8a3f071b0720aa164ad94a3a8') in 0.029080 seconds
+  Import took 0.032088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Mesh/Plane_01.fbx
+  artifactKey: Guid(f2984b77311a441b0b6d181da2af9486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Mesh/Plane_01.fbx using Guid(f2984b77311a441b0b6d181da2af9486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce57b6947cc84826fde65ac204b06093') in 0.014753 seconds
+  Import took 0.017973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/assets_A/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/Valve Index Left.mat
+  artifactKey: Guid(21631b4bc43be87418541fec4e3e355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/Valve Index Left.mat using Guid(21631b4bc43be87418541fec4e3e355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca63e25f4fb6d400e53a16a2fc0547eb') in 0.050144 seconds
+  Import took 0.053554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Toilet_Partitions.mat
+  artifactKey: Guid(ea1c68b5f4bd3c442b5bbb3df790ef1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Toilet_Partitions.mat using Guid(ea1c68b5f4bd3c442b5bbb3df790ef1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f2119367cb34e5549d591bbf838854') in 0.017571 seconds
+  Import took 0.020231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Effect_A/Materials/Smoke_thick.mat
+  artifactKey: Guid(97de08415789a694eb7b2ac89fd4e9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effect_A/Materials/Smoke_thick.mat using Guid(97de08415789a694eb7b2ac89fd4e9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39de2fc23087faf51202e9505259378f') in 1.439200 seconds
+  Import took 1.441752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/ToiletProps.mat
+  artifactKey: Guid(7b91c55aa24776d4a96121cb72c8915a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/ToiletProps.mat using Guid(7b91c55aa24776d4a96121cb72c8915a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae99e409ae5b06784c3412e75622df18') in 0.018923 seconds
+  Import took 0.021346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Shadow_02.mat
+  artifactKey: Guid(4053cccbb907f4196b67dc22fd8099b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Shadow_02.mat using Guid(4053cccbb907f4196b67dc22fd8099b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bf24908c4f5d16b516e6bf6fef863a') in 0.018456 seconds
+  Import took 0.020984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Water_Dispenser_Watertank.mat
+  artifactKey: Guid(68bb07c1909fced44a6f388e2c538a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/Water_Dispenser_Watertank.mat using Guid(68bb07c1909fced44a6f388e2c538a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8927b5ce491adf2cbb712a89acd37d9') in 0.031862 seconds
+  Import took 0.034817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Gun_A/vfx/ShootVFX.mat
+  artifactKey: Guid(07c7de8b5dd0e524680c70fb2a256a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/vfx/ShootVFX.mat using Guid(07c7de8b5dd0e524680c70fb2a256a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb030965a047005c4883b15e33bb252') in 0.008460 seconds
+  Import took 0.011076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/WaterSprinklerPipe.mat
+  artifactKey: Guid(58bd8c3abb3836241b74e94172b91a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/WaterSprinklerPipe.mat using Guid(58bd8c3abb3836241b74e94172b91a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30ea8df9cbc763f075e96b744460f75') in 0.041875 seconds
+  Import took 0.044293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Gun_A/Materials/Toon_MachineGun_06.mat
+  artifactKey: Guid(985f3bad9273e5142a5fc3c967224283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun_A/Materials/Toon_MachineGun_06.mat using Guid(985f3bad9273e5142a5fc3c967224283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9efa2739b545390bac282cc27c7824') in 0.020838 seconds
+  Import took 0.023308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/assets_A/VR Controllers Models/Default Controllers/Default Controller.obj
+  artifactKey: Guid(3ad3c8a0cd60ccd489485ec2973dd9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets_A/VR Controllers Models/Default Controllers/Default Controller.obj using Guid(3ad3c8a0cd60ccd489485ec2973dd9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4edcd9605f0ccd9b75c446db259285') in 0.016077 seconds
+  Import took 0.018664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Musical_spiral.mat
+  artifactKey: Guid(69d239aad84934051971eb9cf707113f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Musical_spiral.mat using Guid(69d239aad84934051971eb9cf707113f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd800cdc51d6112f7764610a43f829b8') in 0.014892 seconds
+  Import took 0.017581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Ring_01_alpha.mat
+  artifactKey: Guid(b223663b8f6914caea1a29394296c9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Ring_01_alpha.mat using Guid(b223663b8f6914caea1a29394296c9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b570f907a84ff38b767bd6f261285d') in 0.021342 seconds
+  Import took 0.023865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Portal_A/The Beautiful Portals VFX/Materials/Rocks_formation_01.mat
+  artifactKey: Guid(f42c1c9263f5c48a89824bdef3904085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portal_A/The Beautiful Portals VFX/Materials/Rocks_formation_01.mat using Guid(f42c1c9263f5c48a89824bdef3904085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775da5dd315fd7a9f996944bce85040f') in 0.429256 seconds
+  Import took 0.431709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/StorageProps.mat
+  artifactKey: Guid(faff026142d6af146ab634e3f35dd326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03Villain_A/02Asset/OfficeAndPoliceStation/Props/MaterialsTextures/StorageProps.mat using Guid(faff026142d6af146ab634e3f35dd326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0525a954fa27c9d755c1691c4c13c6b8') in 0.011485 seconds
+  Import took 0.014137 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001833 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\DMC CONET\Downloads\Villian.ver6\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\DMC CONET\Downloads\Villian.ver6\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/DMC CONET/Downloads/Villian.ver6/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1650 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.9 MB.
+System memory in use after: 170.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2197.
+Total: 2.168700 ms (FindLiveObjects: 0.347400 ms CreateObjectMapping: 0.115500 ms MarkObjects: 1.608800 ms  DeleteObjects: 0.096000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 138.606569 seconds.
+  path: Assets/Scenes_A
+  artifactKey: Guid(29ff883e49cae3144b7153dac7b95f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes_A using Guid(29ff883e49cae3144b7153dac7b95f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154105969add7520591a7abffc19d962') in 0.009675 seconds
+  Import took 0.013025 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\DMC CONET\Downloads\Villian.ver6\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\DMC CONET\Downloads\Villian.ver6\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/DMC CONET/Downloads/Villian.ver6/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1650 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.0 MB.
+System memory in use after: 170.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2201.
+Total: 1.975300 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.049100 ms MarkObjects: 1.593400 ms  DeleteObjects: 0.097600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\DMC CONET\Downloads\Villian.ver6\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\DMC CONET\Downloads\Villian.ver6\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/DMC CONET/Downloads/Villian.ver6/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1650 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.0 MB.
+System memory in use after: 170.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2205.
+Total: 2.330000 ms (FindLiveObjects: 0.286400 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.902400 ms  DeleteObjects: 0.070700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001643 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\DMC CONET\Downloads\Villian.ver6\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\DMC CONET\Downloads\Villian.ver6\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/DMC CONET/Downloads/Villian.ver6/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.746 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1650 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.0 MB.
+System memory in use after: 170.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2209.
+Total: 1.848200 ms (FindLiveObjects: 0.252800 ms CreateObjectMapping: 0.053400 ms MarkObjects: 1.450300 ms  DeleteObjects: 0.090900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
